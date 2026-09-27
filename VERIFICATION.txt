@@ -1,0 +1,23 @@
+Alirezadns standalone 1.0.0 — 2026-09-27
+
+PASS: Source patch retains original dashboard control IDs, CSS and LICENSE.
+PASS: Official Go 1.26.4 Windows toolchain checked against Go checksum database.
+PASS: Branded application compiled and run locally; login page viewed in browser.
+PASS: Real native login, dashboard HTML, config API and default Alirezadns portal title.
+PASS: Final complete internal/web and internal/database Go test suites.
+      Branding expectations updated; original behavior assertions retained.
+      Source-download method validation added and tested.
+PASS: Final source cross-compiled for Linux amd64 and arm64 (CGO disabled).
+PASS: Eight filesystem update/rollback tests with mocked systemd/download/health,
+      including restoration of original source archive, database, key and binary.
+PASS: Bash/Python syntax and install.sh/setup.sh checksum consistency.
+
+NOT TESTED: Running installer on Linux VPS, public ACME issuance, root-only Linux
+control socket at runtime, systemd/firewall lifecycle, power-loss recovery,
+production game connectivity, or load/memory performance on a 1 GiB VPS.
+No guarantee of bug-free operation or automatic compatibility with future releases.
+
+Initial source: IzumiRain/HyperDNS commit
+4a899a90c682d14aa8fdc4506dd6efd84316956c
+Source archive SHA256:
+6cab5bbecd98284ea57ad83194162c7240dc49c8145bae75bb65628c9462813b
